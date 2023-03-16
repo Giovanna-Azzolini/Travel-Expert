@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-smoothing: garyscale;
+}
+
+body{
+text-align: center;
+padding-top: 200px;
+background: url(https://i.ibb.co/Sdm73n6/background-image.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+height: 100vh;
+
+font-family: 'Inter', sans-serif;
+}
+
+h1{
+  color:#151718;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+  font-family:'Cinzel', serif; 
+}
+
+h1 span{
+  color: #DB2777;
+}
+
+p{
+font-size: 20px;
+line-height: 24px;
+margin-bottom: 72px;
+color:#151718;
+}
+
+a{
+  padding: 16px 32px;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #151718;
+}
+
+a:hover,
+.btn-primary{
+  text-decoration: none;
+  color: #151718;
+  background-color: #DB2777;
+}
